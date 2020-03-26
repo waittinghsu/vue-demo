@@ -1,0 +1,386 @@
+$red: ("base": #f02e23,
+  //redBg
+  //"lighten-5":  #FFEBEE,
+  //"lighten-4":  #FFCDD2,
+  //"lighten-3":  #EF9A9A,
+  //"lighten-2":  #E57373,
+  //"lighten-1":  #EF5350,
+  //"darken-1":   #E53935,
+  //"darken-2":   #D32F2F,
+  "darken-3": #ff0033,
+  //lsf-19
+  "darken-4": #680c00,
+  //bloodRedBg
+  //"accent-1":   #FF8A80,
+  //"accent-2":   #FF5252,
+  "accent-3": #ff3366,
+  //lsf-17
+  "accent-4": #cc0033 //lsf-18
+);
+
+$pink: ("base": #e91e63,
+  //"lighten-5":  #fce4ec,
+  //"lighten-4":  #f8bbd0,
+  //"lighten-3":  #f48fb1,
+  "lighten-2": #cc6699,
+  //lsf-13
+  //"lighten-1":  #ec407a,
+  "darken-1": #cc3366,
+  //lsf-12
+  //"darken-2":   #c2185b,
+  "darken-3": #993366,
+  //lsf-11
+  //"darken-4":   #880e4f,
+  //"accent-1":   #ff80ab,
+  "accent-2": #ff33cc,
+  //lsf-14 16
+  "accent-3": #ff0099,
+  //lsf-15
+  //"accent-4":   #c51162
+);
+
+
+$purple: ("base": #5300a4,
+  //"lighten-5":  #F6E4F7,
+  //"lighten-4":  #E8BCEC,
+  //"lighten-3":  #D98EE1,
+  //"lighten-2":  #C95ED5,
+  //"lighten-1":  #BD32CC,
+  //"darken-1":   #AF00C3,
+  //"darken-2":   #A000BD,
+  //"darken-3":   #8B00B7,
+  //"darken-4":   #7800B1,
+  //"accent-1":   #ea80fc,
+  //"accent-2":   #e040fb,
+  //"accent-3":   #d500f9,
+  //"accent-4":   #aa00ff
+);
+
+$deep-purple: ("base": #673ab7,
+  //"lighten-5":  #ede7f6,
+  //"lighten-4":  #d1c4e9,
+  //"lighten-3":  #b39ddb,
+  //"lighten-2":  #9575cd,
+  //"lighten-1":  #7e57c2,
+  //"darken-1":   #5e35b1,
+  //"darken-2":   #512da8,
+  "darken-3": #4804f7,
+  //purpleBg
+  //"darken-4":   #311b92,
+  //"accent-1":   #b388ff,
+  //"accent-2":   #7c4dff,
+  //"accent-3":   #651fff,
+  //"accent-4":   #6200ea
+);
+
+$indigo: ("base": #3f51b5,
+  //"lighten-5":  #e8eaf6,
+  //"lighten-4":  #c5cae9,
+  //"lighten-3":  #9fa8da,
+  //"lighten-2":  #7986cb,
+  //"lighten-1":  #5c6bc0,
+  //"darken-1":   #3949ab,
+  //"darken-2":   #303f9f,
+  //"darken-3":   #283593,
+  //"darken-4":   #1a237e,
+  //"accent-1":   #8c9eff,
+  //"accent-2":   #536dfe,
+  //"accent-3":   #3d5afe,
+  //"accent-4":   #304ffe
+);
+
+$blue: ("base": #0212a2,
+  //"lighten-5":  #E9EAFB,
+  //"lighten-4":  #C6C9F4,
+  //"lighten-3":  #A0A6EC,
+  //"lighten-2":  #7883E5,
+  //"lighten-1":  #5966DF,
+  //"darken-1":   #374AD7,
+  //"darken-2":   #3241CC,
+  //"darken-3":   #2837C0,
+  //"darken-4":   #1D2BB4,
+  "darken-5": #171b5a,
+  "accent-1": #77a6ff,
+  //lightBlueBg
+  //"accent-2":   #448AFF,
+  //"accent-3":   #2979FF,
+  //"accent-4":   #2962FF
+);
+
+$light-blue: ("base": #03a9f4,
+  //"lighten-5":  #e1f5fe,
+  //"lighten-4":  #b3e5fc,
+  //"lighten-3":  #81d4fa,
+  //"lighten-2":  #4fc3f7,
+  //"lighten-1":  #29b6f6,
+  //"darken-1":   #039be5,
+  "darken-2": #038af3,
+  //blueBg
+  "darken-3": #1377c5,
+  //franchBlueBg
+  "darken-4": #0066ff,
+  //lsf-10
+  //"accent-1":   #80d8ff,
+  //"accent-2":   #40c4ff,
+  //"accent-3":   #00b0ff,
+  //"accent-4":   #0091ea
+);
+
+$cyan: ("base": #00bcd4,
+  //"lighten-5":  #e0f7fa,
+  //"lighten-4":  #b2ebf2,
+  //"lighten-3":  #80deea,
+  //"lighten-2":  #4dd0e1,
+  //"lighten-1":  #26c6da,
+  //"darken-1":   #00acc1,
+  "darken-2": #0099cc,
+  //lsf-9
+  //"darken-3":   #00838f,
+  //"darken-4":   #006064,
+  "accent-1": #74f6f8,
+  //skyBlueBg
+  //"accent-2":   #18ffff,
+  "accent-3": #00ccff,
+  //lsf-8
+  //"accent-4":   #00b8d4
+);
+
+$teal: ("base": #009966, //lsf-6
+  //"lighten-5":  #e0f2f1,
+  //"lighten-4":  #b2dfdb,
+  //"lighten-3":  #80cbc4,
+  //"lighten-2":  #4db6ac,
+  //"lighten-1":  #26a69a,
+  //"darken-1":   #00897b,
+  //"darken-2":   #00796b,
+  //"darken-3":   #00695c,
+  //"darken-4":   #004d40,
+  //"accent-1":   #a7ffeb,
+  "accent-2": #6de8d0, //連肖走勢
+  //"accent-3":   #1de9b6,
+  "accent-4": #00cc99 //lsf-5
+);
+
+$green: ("base": #4caf50,
+  //"lighten-5":  #E8F5E9,
+  //"lighten-4":  #C8E6C9,
+  //"lighten-3":  #A5D6A7,
+  //"lighten-2":  #81C784,
+  "lighten-1": #60b631, //六合五行 木
+  //"darken-1":   #43A047,
+  //"darken-2":   #388E3C,
+  "darken-3":   #008237, // 聊天室notify人名
+  //"darken-4":   #1B5E20,
+  //"accent-1":   #B9F6CA,
+  //"accent-2":   #69F0AE,
+  "accent-3": #33cc33,
+  //lsf-3
+  "accent-4": #25ba00 //greenBg
+);
+
+$light-green: ("base": #8bc34a,
+  //"lighten-5":  #f1f8e9,
+  //"lighten-4":  #dcedc8,
+  //"lighten-3":  #c5e1a5,
+  //"lighten-2":  #aed581,
+  //"lighten-1":  #9ccc65,
+  //"darken-1":   #7cb342,
+  //"darken-2":   #689f38,
+  //"darken-3":   #558b2f,
+  "darken-4": #336600,
+  //lsf-7
+  "accent-1": #ccff66,
+  //lsf-1
+  "accent-2": #99ff00,
+  //lsf-0
+  //"accent-3":   #76ff03,
+  //"accent-4":   #64dd17
+);
+
+$lime: ("base": #cddc39,
+  //"lighten-5":  #f9fbe7,
+  //"lighten-4":  #f0f4c3,
+  //"lighten-3":  #e6ee9c,
+  //"lighten-2":  #dce775,
+  //"lighten-1":  #d4e157,
+  "darken-1": #cccc66,
+  //lsf-2
+  //"darken-2":   #afb42b,
+  "darken-3": #999933,
+  //lsf-4
+  //"darken-4":   #827717,
+  //"accent-1":   #f4ff81,
+  //"accent-2":   #eeff41,
+  //"accent-3":   #c6ff00,
+  //"accent-4":   #aeea00
+);
+
+$yellow: ("base": #ffeb3b,
+  //"lighten-5":  #fffde7,
+  //"lighten-4":  #fff9c4,
+  //"lighten-3":  #fff59d,
+  //"lighten-2":  #fff176,
+  //"lighten-1":  #ffee58,
+  //"darken-1":   #f4d04b,
+  //"darken-2":   #fbc02d,
+  //"darken-3":   #f9a825,
+  //"darken-4":   #f57f17,
+  //"accent-1":   #ffff8d,
+  //"accent-2":   #ffff00,
+  //"accent-3":   #ffea00,
+  //"accent-4":   #ffd600
+);
+
+$orange: ("base": #ff9800,
+  //"lighten-5":  #fff3e0,
+  //"lighten-4":  #ffe0b2,
+  //"lighten-3":  #ffcc80,
+  "lighten-2": #ffbe00,
+  //mangoBg
+  //"lighten-1":  #ffa726,
+  //"darken-1":   #fb8c00,
+  //"darken-2":   #f57c00,
+  "darken-3": #f17200,
+  //orangeBg
+  //"darken-4":   #e65100,
+  //"accent-1":   #ffd180,
+  //"accent-2":   #ffab40,
+  "accent-3": #ff9100,
+  // 六合五行 ‘金’
+  //"accent-4":   #ff6d00
+);
+
+
+$deep-orange: ("base": #e53935,
+  //"lighten-5":  #FFEBEE,
+  //"lighten-4":  #FFCDD2,
+  //"lighten-3":  #F29C9A,
+  //"lighten-2":  #E57373,
+  //"lighten-1":  #EF5250,
+  //"darken-1":   #F44236,
+  //"darken-2":   #D32E2F,
+  //"darken-3":   #C62728,
+  //"darken-4":   #B71A1C,
+  //"accent-1":   #ff9e80,
+  //"accent-2":   #ff6e40,
+  //"accent-3":   #ff3d00,
+  //"accent-4":   #dd2c00
+);
+
+$brown: ("base": #795548,
+  //"lighten-5":  #efebe9,
+
+  //"lighten-4":  #d7ccc8,
+  //"lighten-3":  #bcaaa4,
+  //"lighten-2":  #a1887f,
+  "lighten-1": #735f4e,
+  // 香港彩生肖文字顏色
+  //"darken-1":   #6d4c41,
+  //"darken-2":   #5d4037,
+  //"darken-3":   #4e342e,
+  //"darken-4":   #3e2723
+);
+
+$blue-grey: ("base": #607d8b,
+  //"lighten-5":  #eceff1,
+  //"lighten-4":  #cfd8dc,
+  //"lighten-3":  #b0bec5,
+  //"lighten-2":  #90a4ae,
+  //"lighten-1":  #78909c,
+  //"darken-1":   #546e7a,
+  //"darken-2":   #455a64,
+  //"darken-3":   #37474f,
+  //"darken-4":   #263238
+);
+
+
+
+$grey: ("base": #a7a7a7,
+  //grayBg
+  "lighten-5": #fafafa,
+  "lighten-4": #f5f5f5,
+  "lighten-3": #e5e5e5,
+  "lighten-2": #e0e0e0,
+  "lighten-1": #bdbdbd,
+  "darken-1": #757575,
+  "darken-2": #616161,
+  "darken-3": #434343,
+  //blackOliveBg
+  "darken-4": #212121,
+  "accent-1": #999999,
+  "accent-3": #333333);
+
+
+$shades: ("black": #000000,
+  "white": #ffffff,
+  "transparent": transparent);
+
+$colors: ("red": $red,
+  "pink": $pink,
+  "purple": $purple,
+  "deep-purple": $deep-purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "light-blue": $light-blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "light-green": $light-green,
+  "lime": $lime,
+  "yellow": $yellow,
+  "orange": $orange,
+  "deep-orange": $deep-orange,
+  "brown": $brown,
+  "blue-grey": $blue-grey,
+  "grey": $grey,
+  "shades": $shades);
+
+@mixin background-color($color_value) {
+  background-color: $color_value !important;
+  border-color: $color_value !important;
+}
+
+@mixin text-color($color_value) {
+  color: $color_value !important;
+  caret-color: $color_value !important;
+}
+
+
+// Put the loop in a function so it can't leak
+@each $color_name,
+$color_value in $shades {
+  #app .#{$color_name}--bg {
+    @include background-color($color_value);
+  }
+
+  #app .#{$color_name}--text {
+    @include text-color($color_value);
+  }
+}
+
+
+@each $color_name,
+$color_color in $colors {
+
+  @each $color_type,
+  $color_value in $color_color {
+    @if ($color_type=="base") {
+      #app .#{$color_name}--bg {
+        @include background-color($color_value);
+      }
+
+      #app .#{$color_name}--text {
+        @include text-color($color_value);
+      }
+    }
+    @else if ($color_type !="shades") {
+      #app .#{$color_name}--bg.#{$color_type} {
+        @include background-color($color_value);
+      }
+
+      #app .#{$color_name}--text.text--#{$color_type} {
+        @include text-color($color_value);
+      }
+    }
+  }
+}

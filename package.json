@@ -8,17 +8,31 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.9.0",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
+    "@vue/eslint-config-prettier": "^5.1.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "git-revision-webpack-plugin": "^3.0.4",
+    "lodash-webpack-plugin": "^0.11.5",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.13.0"
   },
   "eslintConfig": {
     "root": true,
