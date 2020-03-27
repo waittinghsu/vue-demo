@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import App from './App.vue';
-import echarts from 'echarts';
+// import echarts from 'echarts';
 import router from './router';
 Vue.config.productionTip = false;
 
 // echarts
-echarts.registerTheme('custom', require('./config/echarts/themes/custom.json'));
+// echarts.registerTheme('custom', require('./config/echarts/themes/custom.json'));
 // bootstrap
 import {
     LayoutPlugin,
@@ -22,7 +22,8 @@ import {
     FormTextareaPlugin,
     FormCheckboxPlugin,
     FormFilePlugin,
-    PopoverPlugin
+    PopoverPlugin,
+    CardPlugin
 } from 'bootstrap-vue';
 // bootstrap-vue
 Vue.use(LayoutPlugin);
@@ -40,6 +41,7 @@ Vue.use(FormTextareaPlugin);
 Vue.use(FormCheckboxPlugin);
 Vue.use(FormFilePlugin);
 Vue.use(PopoverPlugin);
+Vue.use(CardPlugin);
 import { Slider, Dropdown, DropdownMenu, DropdownItem, Button, Timeline, TimelineItem, Card } from 'element-ui';
 Vue.use(Card);
 Vue.use(Button);

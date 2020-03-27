@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home';
+import HomeworkEC from '../views/HomeworkEC';
 
 Vue.use(VueRouter);
 
@@ -15,9 +16,9 @@ const vueRouter = new VueRouter({
             component: Home
         },
         {
-            path: '/about',
-            name: 'about',
-            component: Home
+            path: '/homeworkEC',
+            name: 'homeworkEC',
+            component: HomeworkEC
         }
     ]
 });

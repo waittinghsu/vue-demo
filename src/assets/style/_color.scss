@@ -293,8 +293,6 @@ $blue-grey: ("base": #607d8b,
   //"darken-4":   #263238
 );
 
-
-
 $grey: ("base": #a7a7a7,
   //grayBg
   "lighten-5": #fafafa,
@@ -310,12 +308,11 @@ $grey: ("base": #a7a7a7,
   "accent-1": #999999,
   "accent-3": #333333);
 
-
 $shades: ("black": #000000,
   "white": #ffffff,
   "transparent": transparent);
 
-$colors: ("red": $red,
+$c_colors: ("red": $red,
   "pink": $pink,
   "purple": $purple,
   "deep-purple": $deep-purple,
@@ -360,7 +357,7 @@ $color_value in $shades {
 
 
 @each $color_name,
-$color_color in $colors {
+$color_color in $c_colors {
 
   @each $color_type,
   $color_value in $color_color {

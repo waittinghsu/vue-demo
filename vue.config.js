@@ -2,7 +2,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const packageVersion = require('./package.json').version;
-console.log(123456);
 // webpack plugins
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 //產生版本號檔案static/
@@ -74,21 +73,21 @@ module.exports = {
         });
 
         // define 'VUE_APP_GIT_COMMIT_HASH', 'VUE_APP_PACKAGE_VERSION'
-        config.plugin('define').tap(args => {
-            // console.log(args);
-
-            args[0]['process.env']['VUE_APP_GIT_COMMIT_HASH'] = JSON.stringify(gitCommitHash);
-            args[0]['process.env']['VUE_APP_PACKAGE_VERSION'] = JSON.stringify(packageVersion);
-
-            return args;
-        });
+        // config.plugin('define').tap(args => {
+        //     // console.log(args);
+        //
+        //     args[0]['process.env']['VUE_APP_GIT_COMMIT_HASH'] = JSON.stringify(gitCommitHash);
+        //     args[0]['process.env']['VUE_APP_PACKAGE_VERSION'] = JSON.stringify(packageVersion);
+        //
+        //     return args;
+        // });
 
         // inject git commit hash into index.html
-        config.plugin('html').tap(args => {
-            args[0]['GIT_COMMIT_HASH'] = JSON.stringify(gitCommitHash);
-            args[0]['PACKAGE_VERSION'] = JSON.stringify(packageVersion);
-
-            return args;
-        });
+        // config.plugin('html').tap(args => {
+        //     args[0]['GIT_COMMIT_HASH'] = JSON.stringify(gitCommitHash);
+        //     args[0]['PACKAGE_VERSION'] = JSON.stringify(packageVersion);
+        //
+        //     return args;
+        // });
     }
 };
